@@ -361,9 +361,9 @@ function drawPoster(canvas, scale) {
 
   c.fillStyle = INK; c.textBaseline = "alphabetic"; c.textAlign = "left";
   c.font = "700 104px Oswald, Impact, 'Arial Narrow', sans-serif";
-  const tw = c.measureText("Kink Jars").width, lineW = 360, gap = 26, x0 = (PW - lineW - gap - tw) / 2, base = 140;
+  const tw = c.measureText("Sammys Tickle Kink Jars").width, lineW = 360, gap = 26, x0 = (PW - lineW - gap - tw) / 2, base = 140;
   c.fillRect(x0, base - 5, lineW, 7);
-  c.fillText("Kink Jars", x0 + lineW + gap, base);
+  c.fillText("Sammys Tickle Kink Jars", x0 + lineW + gap, base);
   const name = state.name.trim();
   if (name) {
     let size = 66; c.font = `${size}px "Permanent Marker", "Comic Sans MS", cursive`;
